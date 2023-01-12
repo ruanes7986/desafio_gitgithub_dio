@@ -1,0 +1,65 @@
+GIT E GITHUB
+COMANDOS NO TERMINAL GIT
+CLI - command line interface
+GUI - graphic user interface
+
+mudar de pastas
+
+listar pastas
+
+criar pastas/arquivos
+
+deletar pastas/ arquivos
+
+windows
+ - cd
+- dir
+- mkdir
+- del / rmdir
+
+unix
+- cd
+- ls
+- mkdir
+- rm -rf
+-------------------------------------------------------------
+como funciona o git
+
+-SHA1
+Secure Hash Algorithm
+funções criptográficas q geram conjunto de caracteres identificadores de 40 digitos
+é uma forma curta de representar um arquivo
+ -A chave de encriptação muda a cada alteração feita no arquivo.
+"Se caractere mudar
+   Então encriptação nova
+    Se não encriptação igual
+ Fim  se;"
+openssl sha1 - encripta arquivo e objetos em 40 caracteres
+git hash-object - função do git q cria o sha1 do arq tem que especificar o tipo de arquivo.
+essa função utiliza espaço como blob.
+-OBJETOS FUNDAMENTAIS
+   -BLOBS(bolha) - objeto q contém os metadados tem o sha1 do arquivo
+               tem o tipo de obj
+               tamanho de obj
+                e string
+
+   -TREES - armazena blobs (que contem sha1) e aponta p/ tipos de dados diferentes
+            guarda o nome do arq
+            podem apontar para outras arvores
+            tem um sha1 c/ os metadados da arvores
+   -COMMITS - junta tudo, aponta p/ a tree, 
+                      p/ parente, 
+                      p/autor, 
+                      p/ mensagem
+                     contém o timestamp
+                     tem sha1 é o hash de toda a info
+-SISTEMA DISTRIBUÍDO
+          o arquivo é encriptado em muitas partes, e a cada mudança feita nele a encriptação muda
+          se der algum problema de rede e o cód sumir o mesmo pode ser acessado por outra pessoa (se houver o trabalho em grupo)
+-SEGURANÇA
+
+-----------------------------------------------
+CHAVES SSH e TOKENS
+CHAVE SSH - conexão segura e encriptada entre duas maquinas
+           chave publica seu pc manda p/ o github (no git a chave publica é acompanhada por .pub)
+           chave privada 
