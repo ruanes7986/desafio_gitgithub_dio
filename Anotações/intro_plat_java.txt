@@ -1,0 +1,16 @@
+INTRODUÇÃO DA PLATAFORMA JAVA
+
+JAVA Fundamentos
+linguagem simples e fácil de entender
+java é linguagem de POO escritos em CLASSES e OBJETO
+conceito WORA 
+JVM - compilador
+bytecode
+---------------------------------------
+pesquisa codinome GREEN em 1991
+linguagem baseada e C e C#
+James Gosling criou a linguagem JAVA (primeiramente nomeada OAK devido a uma arvore que ficava p/ janela do escritório da SUN MICROSYSTEMS))
+o nome vem da ilha de JAVA q tinha café (o combustível do programador)
+JAVA foi anunciado oficialmente em 1995 em uma conferencia
+----------------------------------------
+
